@@ -2,6 +2,9 @@
 Simple REPL for communication with a TCP server using the console
 
 ## Usage
+
+[Install cargo](https://crates.io/) if you don't have it. You can compile & run the project from the project folder using the command line:
+
 ```sh
 cargo run --release [tcp address]
 ```
