@@ -1,5 +1,3 @@
-extern crate colored;
-
 use colored::*;
 
 use std::env::args;
