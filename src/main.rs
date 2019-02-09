@@ -1,9 +1,13 @@
 use colored::*;
 
-use std::env::args;
-use std::io::prelude::*;
-use std::io::stdin;
-use std::net::TcpStream;
+use std::{
+    env::args,
+    io::{
+        prelude::*,
+        stdin,
+    },
+    net::TcpStream,
+};
 
 fn read_input() -> String {
     let mut input = String::new();
